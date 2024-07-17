@@ -1,0 +1,22 @@
+.link{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: var(--fontSource);
+    text-align: center;
+    align-content: center;
+    width: 180px;
+    height: 54px;
+    text-decoration: none;
+    background: var(--negro);
+    border: 2px solid var(--blanco);
+    border-radius: 15px;
+    color: var(--blanco);
+}
+
+.link:active{
+    border: 2px solid var(--bordes);
+    box-shadow: 0px 0px 12px 4px var(--bordes) inset;
+    color: var(--bordes);
+}
+
+
